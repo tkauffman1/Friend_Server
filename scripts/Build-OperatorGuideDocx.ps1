@@ -55,14 +55,20 @@ foreach ($line in $lines) {
         Add-P -Sb $body -Text $matches[1] -Style 'Heading1'
         continue
     }
-    if ($t -match '^[-*]\s+(.+)$') {
+    if ($t -match '^[-*]\s+\[([^\]]+)\]\([^\)]+\)\s*$') {
         Add-P -Sb $body -Text ([char]0x2022 + ' ' + $matches[1]) -Style 'Normal'
+        continue
+    }
+    if ($t -match '^[-*]\s+(.+)$') {
+        $bulletText = $matches[1] -replace '\[([^\]]+)\]\([^\)]+\)', '$1'
+        Add-P -Sb $body -Text ([char]0x2022 + ' ' + $bulletText) -Style 'Normal'
         continue
     }
     if ([string]::IsNullOrWhiteSpace($t)) { continue }
     if ($t -match '^\|[\s\-:|]+\|$') { continue }
     # Markdown tables and normal text: keep as paragraph
     $plain = $t -replace '\*\*([^*]+)\*\*', '$1'
+    $plain = $plain -replace '\[([^\]]+)\]\([^\)]+\)', '$1'
     Add-P -Sb $body -Text $plain -Style 'Normal'
 }
 
