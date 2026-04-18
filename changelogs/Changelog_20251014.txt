@@ -1,0 +1,16 @@
+
+(14-10-2025)
+rev. 798589fb5 2025-10-14
+
+Following modules were added:
+	https://github.com/abracadaniel22/mod-fly-anywhere
+	
+	
+ATTENTION: Due to the addition of the module fly anywhere, a additional file is needed: Patch-O.mpq. It is inside the repack root folder (after you extract the update into it). Copy it to your data folder inside your WoTLK client folder.
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2025-10-04&until=2025-10-14
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2025-10-04&until=2025-10-14

@@ -1,0 +1,10 @@
+
+(2025-12-26)
+rev. fd2ba835 2025-12-22
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+modules/individual_progression.conf
+
+

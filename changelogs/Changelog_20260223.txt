@@ -1,0 +1,32 @@
+
+(2026-02-23)
+rev. e5a0f151c 2026-02-23
+
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2026-02-16T05:56:20Z&until=2026-02-23T04:50:32Z
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2026-02-16T05:56:20Z&until=2026-02-23T04:50:32Z
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2026-02-16T05:56:20Z&until=2026-02-23T04:50:32Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+

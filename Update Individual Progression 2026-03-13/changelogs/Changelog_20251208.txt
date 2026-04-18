@@ -1,0 +1,20 @@
+
+(2025-12-08)
+rev. 3c3eeb17 2025-12-08
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2025-12-02&until=2025-12-08
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2025-12-02&until=2025-12-08
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2025-12-02&until=2025-12-08
+
+
+

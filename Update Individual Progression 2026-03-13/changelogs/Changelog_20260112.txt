@@ -1,0 +1,29 @@
+
+(2026-01-12)
+rev. e0ebb3f81 2026-01-12
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+worldserver.conf
+modules/mod_ahbot.conf
+modules/AutoBalance.conf			#Finally got rid of the annoying warning at worldserver start!
+
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2026-01-06T04:59:38Z&until=2026-01-12T04:38:49Z
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2026-01-06T04:59:38Z&until=2026-01-12T04:38:49Z
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2026-01-06T04:59:38Z&until=2026-01-12T04:38:49Z
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+#You need to be a GM for these commands to work.
+
+#Beast Master
+.npc add 601026
+
+#Transmog
+.npc add 190010
+
+#Instance/Raid Reset
+.npc add 300000
+
+#Reagent Bank
+.npc add 290011
+
+#Enchanter
+.npc add 601015
+
+#Improved Bank
+.npc add 200001
+
+#Warlock Pet Rename
+.npc add 200002
+
+#Spectator
+.npc add 190000
+
+#Buffer
+.npc add 601016
+
+#Queue List Cache
+.npc add 93080
+
+#Free Professions
+.npc add 199999
+
+#Top Arena
+.npc add 55333
+
+#Emblem Transfer
+.npc add 100000
+
+#Guildhouse
+.npc add 500030
+
+#Guildhouse Butler
+.guildhouse butler / .gh butler
+
+#Racial Trait Swap
+.npc add 98888
+
+
+
+#to delete a npc, select it and type:
+.npc delete
+
+#to spawn a npc temporarily, add temp to the command:
+.npc add temp <ID>
+e.g.
+.npc add temp 601026
+

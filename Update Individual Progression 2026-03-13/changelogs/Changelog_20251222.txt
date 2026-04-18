@@ -1,0 +1,24 @@
+
+(2025-12-22)
+rev. fd2ba835 2025-12-22
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+modules/leech.conf
+modules/playerbots.conf
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2025-12-15T05:40:01Z&until=2025-12-22T05:03:48Z
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2025-12-15T05:40:01Z&until=2025-12-22T05:03:48Z
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2025-12-15T05:40:01Z&until=2025-12-22T05:03:48Z
+
+
+
+
+

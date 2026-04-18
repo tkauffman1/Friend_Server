@@ -1,0 +1,19 @@
+
+(21-10-2025)
+rev. 8049ed59 2025-10-21
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+configs/worldserver.conf 
+
+configs/modules/playerbots.conf 
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2025-10-15&until=2025-10-21
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2025-10-15&until=2025-10-21
+
+

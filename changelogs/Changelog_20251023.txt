@@ -1,0 +1,19 @@
+
+(23-10-2025)
+rev. 2607df754 2025-10-23
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+configs/modules/mod_ahbot.conf 
+configs/modules/mod_npc_free_professions.conf 
+configs/modules/mod_player_bot_level_brackets.conf 
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2025-10-22&until=2025-10-23
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2025-10-22&until=2025-10-23
+
+

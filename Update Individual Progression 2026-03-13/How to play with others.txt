@@ -1,0 +1,57 @@
+
+
+
+This is for people who want to play with others. If you're going to play by yourself on your own computer with bots, the install instructions are enough.
+
+1. Open TCP ports 3724 (authserver) and 8085 (worldserver) in your modem/router.
+
+2. Get the IPv4 IP of the machine the server is running in. In windows you can open a command prompt and type "ipconfig" without quotes.
+Assuming you have more than one connection, you're looking for the IPv4 address that starts 192.168.x.x
+
+3. Copy that IP and paste it somewhere.
+
+4. Run mysql.bat inside the repack folder to start the database.
+
+5. Open the database with heidisql.
+If this is the first time you're doing this you're going to have to click "New" at the bottom left of the window.
+Hostname / IP: 127.0.0.1
+User: root
+Password: test
+Port: 3306
+Once all your information is correct click "Open".
+
+6. Navigate to your realmlist table which is in the acore_auth database. The navigation panel is on the left side of the window. This is not where you change the IP address.
+Select the Data tab at the top of the window and the table will become one line, this is where you change the IP address.
+The cells you're interested in changing are "3 address" and "4 localAddress"
+If you're only planning on running the server over LAN you can change both to the local IPv4 address of your server computer.
+If you want people to be able to connect over Hamachi too you should change "3 address" to your Hamachi IPv4 (which can be found on the Hamachi window or in ipconfig under Hamachi) and your "4 localAddress" to your local IPv4 address.
+
+7. Change the realmlist.wtf of your client in the other machine to the IP you copied. Other people need to do the same with their client on their computer.
+If the client is connecting from the same computer the server is running on the address is 127.0.0.1 regardless of what you set the addresses to in the server.
+If the client is connecting from another computer on your LAN the address is the IPV4 address from earlier.
+If the client is connecting from a computer on your Hamachi VPN the address is the server computer's Hamachi IPv4 address.
+
+
+8. Create accounts for them using the worldserver window.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

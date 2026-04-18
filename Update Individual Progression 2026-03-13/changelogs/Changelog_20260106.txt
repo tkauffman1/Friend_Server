@@ -1,0 +1,25 @@
+
+(2026-01-06)
+rev. 0c646e00e 2026-01-06
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+worldserver.conf
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2025-12-29T05:27:06Z&until=2026-01-06T04:59:38Z
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2025-12-29T05:27:06Z&until=2026-01-06T04:59:38Z
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2025-12-29T05:27:06Z&until=2026-01-06T04:59:38Z
+
+
+
+
+
+
+

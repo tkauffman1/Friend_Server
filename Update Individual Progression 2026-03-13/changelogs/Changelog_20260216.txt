@@ -1,0 +1,35 @@
+
+(2026-02-16)
+rev. d3bf5ddd0 2026-02-16
+
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+worldserver.conf
+modules\mod_ahbot.conf
+modules\individualProgression.conf
+
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2026-02-09T04:41:17Z&until=2026-02-16T05:56:20Z
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2026-02-09T04:41:17Z&until=2026-02-16T05:56:20Z
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2026-02-09T04:41:17Z&until=2026-02-16T05:56:20Z
+
+
+
+
+
+
+
+
+
+
+
+
+

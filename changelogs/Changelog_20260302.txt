@@ -1,0 +1,41 @@
+
+(2026-03-02)
+rev. 4f586e00c 2026-03-02
+
+
+Added module dungeon master:
+https://github.com/InstanceForge/mod-dungeon-master
+Warning: this is a recent release and may have bugs.
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+worldserver.conf
+modules\1v1arena.conf
+modules\morphsummon.conf
+modules\playerbots.conf
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2026-02-23T04:50:32Z&until=2026-03-02T08:51:33Z
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2026-02-23T04:50:32Z&until=2026-03-02T08:51:33Z
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2026-02-23T04:50:32Z&until=2026-03-02T08:51:33Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

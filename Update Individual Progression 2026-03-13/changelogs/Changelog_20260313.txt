@@ -1,0 +1,38 @@
+
+(2026-03-13)
+rev. 946f88d98 2026-03-12
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+worldserver.conf
+modules\CFBG.conf
+modules\mod_boss_announcer.conf
+modules\playerbots.conf
+
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2026-03-02T08:51:33Z&until=2026-03-13T01:59:48Z
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2026-03-02T08:51:33Z&until=2026-03-13T01:59:48Z
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2026-03-02T08:51:33Z&until=2026-03-13T01:59:48Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
