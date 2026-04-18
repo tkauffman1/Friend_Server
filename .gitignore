@@ -1,5 +1,6 @@
 data/
 mysql/
+*.pdb
 models/
 logs/
 results/
