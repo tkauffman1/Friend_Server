@@ -67,11 +67,14 @@ If you use **individual XP** (different rate per account/character), see **`conf
 | You want | Look at |
 |----------|---------|
 | How many bots in the world | `AiPlayerbot.MinRandomBots`, `AiPlayerbot.MaxRandomBots` |
+| **600 logged in at the same time** | Set **Min and Max both to 600** and keep **`EnablePeriodicOnlineOffline = 0`** (otherwise only part of the pool is online). |
 | Max level bots can reach | `AiPlayerbot.RandomBotMaxLevel` (should not exceed `MaxPlayerLevel` in worldserver) |
 | Bots only in Eastern Kingdoms + Kalimdor | `AiPlayerbot.RandomBotMaps = 0,1` |
 | Include Outland + Northrend | add `530` and `571` → e.g. `0,1,530,571` |
 | Bots start at level 1, not random levels | `AiPlayerbot.DisableRandomLevels = 1`, `AiPlayerbot.RandombotStartingLevel = 1` |
-| Bot max level follows online players | `AiPlayerbot.SyncLevelWithPlayers = 1` |
+| Bot max level follows online players | `AiPlayerbot.SyncLevelWithPlayers = 1` (set **0** if you want bots to spread across levels even when players are low level) |
+| **Bots actually playing / leveling (not idle all day)** | **`AiPlayerbot.BotActiveAlone`** — in zones with no real player, this is the % of bots that run full AI. **20** feels like almost nobody levels; **80–100** keeps the world active. Nearby real players → 100% active. |
+| Faster bot XP in real time (still kills/quests) | **`AiPlayerbot.RandomBotXPRate`** — multiplies server XP for bots (`1` = same as players). |
 
 **Randombot accounts** are excluded from Individual Progression when `ExcludeAccounts` is on, but level is still capped by **`IndividualProgression.ExcludedAccountsMaxLevel`** in `individualProgression.conf` — keep it equal to **`MaxPlayerLevel`** so bots do not outlevel players.
 
@@ -116,7 +119,7 @@ Ports, bind address, and login database connection. Change only if you know your
 |-------|--------|------------------------|
 | Level cap | `worldserver.conf` | `MaxPlayerLevel = 60` |
 | IP phase cap | `individualProgression.conf` | `ProgressionLimit = 7`, bot cap `ExcludedAccountsMaxLevel = 60` |
-| Bots | `playerbots.conf` | 600 bots, max level 60, maps `0,1`, sync with players, some CPU tweaks |
+| Bots | `playerbots.conf` | 600 online (`Min`/`Max` 600, periodic offline off), start L1, `SyncLevelWithPlayers`, `BotActiveAlone` high, `RandomBotXPRate` > 1, maps `0,1`, CPU tweaks |
 
 ---
 
