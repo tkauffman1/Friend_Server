@@ -34,6 +34,9 @@ tasklist /fi "ImageName eq mysqld.exe" /fo csv 2>NUL | find /I "mysqld.exe">NUL
 if "%ERRORLEVEL%"=="1" (start /min mysql\bin\mysqld.exe --console --standalone --max_allowed_packet=128M) ELSE echo Mysql was already started.
 timeout 8 >nul
 cls
+echo STARTING OLLAMA LLM API ^(port 11434^)...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "if (-not (Get-NetTCPConnection -LocalPort 11434 -State Listen -ErrorAction SilentlyContinue)) { Start-Process '%LOCALAPPDATA%\Programs\Ollama\ollama.exe' -ArgumentList 'serve' -WindowStyle Minimized; Start-Sleep -Seconds 5 }"
+cls
 echo CONNECTING LOGON AUTH SERVER...
 tasklist /fi "ImageName eq authserver.exe" /fo csv 2>NUL | find /I "authserver.exe">NUL
 if "%ERRORLEVEL%"=="1" (start /min authserver) ELSE echo Authserver was already started.

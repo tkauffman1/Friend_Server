@@ -1,0 +1,30 @@
+# Tab-separated: slug<TAB>comma-separated synonyms (lowercase). Lines starting with # ignored.
+# Slugs match CSV filenames under data/tbc-p1/ (without .csv)
+druid-restoration	restoration druid,druid restoration,resto druid,druid resto,restoration
+druid-balance	balance druid,druid balance,boomkin,boomie,balance
+druid-feral-cat	feral druid cat,cat druid,feral cat,feral dps druid
+druid-feral-bear	feral druid bear,bear druid,feral tank,guardian
+warrior-arms	arms warrior,warrior arms
+warrior-fury	fury warrior,warrior fury
+warrior-protection	protection warrior,warrior protection,prot warrior,warrior prot,prot
+paladin-holy	holy paladin,paladin holy,holy pally
+paladin-protection	protection paladin,paladin protection,prot paladin,paladin prot,prot pally,protadin
+paladin-retribution	retribution paladin,paladin retribution,ret paladin,ret pally,ret
+hunter-beast-mastery	beast mastery hunter,hunter beast mastery,bm hunter,bm
+hunter-marksmanship	marksmanship hunter,hunter marksmanship,mm hunter,mm
+hunter-survival	survival hunter,hunter survival,surv hunter,surv
+rogue-assassination	assassination rogue,rogue assassination,assa,mut
+rogue-combat	combat rogue,rogue combat
+rogue-subtlety	subtlety rogue,rogue subtlety,sub
+priest-discipline	discipline priest,priest discipline,disc priest
+priest-holy	holy priest,priest holy
+priest-shadow	shadow priest,priest shadow,spriest
+shaman-elemental	elemental shaman,shaman elemental,ele sham,ele
+shaman-enhancement	enhancement shaman,shaman enhancement,enh sham,enh
+shaman-restoration	restoration shaman,shaman restoration,resto shaman,resto sham,rsham
+mage-arcane	arcane mage,mage arcane
+mage-fire	fire mage,mage fire
+mage-frost	frost mage,mage frost
+warlock-affliction	affliction warlock,warlock affliction,affli,affliction
+warlock-demonology	demonology warlock,warlock demonology,demo lock,demo
+warlock-destruction	destruction warlock,warlock destruction,destro

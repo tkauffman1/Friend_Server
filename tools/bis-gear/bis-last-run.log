@@ -1,0 +1,11 @@
+Slug:    mage-fire
+CSV:     /c/acore/tools/bis-gear/data/tbc-p1/mage-fire.csv
+Character: Tinytorch
+Output:  /c/acore/tools/bis-gear/sql/generated/tbc-p1-mage-fire-Tinytorch.sql
+Wrote /c/acore/tools/bis-gear/sql/generated/tbc-p1-mage-fire-Tinytorch.sql
+
+Next step: run this file on your AzerothCore **characters** database (backup first).
+  Example: mysql -h ... -u ... -p... acore_characters < "/c/acore/tools/bis-gear/sql/generated/tbc-p1-mage-fire-Tinytorch.sql"
+Full console log also saved to: /c/acore/tools/bis-gear/bis-last-run.log
+Run on your characters database, e.g.:
+  mysql ... acore_characters < "/c/acore/tools/bis-gear/sql/generated/tbc-p1-mage-fire-Tinytorch.sql"
