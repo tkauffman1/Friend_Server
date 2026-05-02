@@ -2,7 +2,7 @@
 
 
 
-Installation steps:
+INSTALLATION INSTRUCTIONS
 1. Download either the full repack WITHOUT individual progression OR the full repack WITH individual progression (300-400mb file).
 
 2. Download the data files for your update (1gb file):
@@ -14,30 +14,35 @@ v19: 08/12/2025 - present
 
 3. Download the latest update for your repack (70-90mb file) (if any).
 
-4. Download a 3.3.5a client:
-HD client from warmane forum:	https://forum.warmane.com/showthread.php?t=437071
+4. Download VC++ redistributables all in one: https://github.com/abbodi1406/vcredist/releases/latest
+Download "VisualCppRedist_AIO_x86_x64.exe".
+this is required because azerothcore uses C++ code and rely on these libraries.
+If you are having trouble with the link above you can use this:
+https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/
+
+5. Download 7zip if you don't have already.
+
+6. You should have a folder similar to image 1 now (5 files).
+
+7. Install 7zip and VC++ redistributables (VisualCppRedist_AIO_x86_x64.exe).
+
+
+8. Download a 3.3.5a client:
+HD client from warmane forum:	https://drive.google.com/drive/folders/1RmWFmyFKWNDyXvpGdaboB8ytwosy25C1
 Chromiecraft client:	https://www.chromiecraft.com/en/downloads/
 
 
-5. Install VC++ redistributables all in one: https://github.com/abbodi1406/vcredist/releases
-VisualCppRedist_AIO_x86_x64.exe 
-this is required because azerothcore uses C++ code and rely on these libraries.
+9. Unzip the repack somewhere (Images 2-3).
 
+10. Create a "data" folder inside the repack folder (if it does not exist already). Then Unzip the data files content into the repack folder. You should now have a 3gb "data" folder, with 5 subfolders (Images 4-6).
 
-6. Install 7zip if you don't have already.
+11. Unzip the update (if any) into the repack folder, replace everything (Images 7-8).
 
-7. Unzip the repack somewhere.
+12. Inside that folder, run "Start Server.bat" file (or start mysql.bat (wait 3-5 seconds), authserver.exe (wait 3-5 seconds) and worldserver.exe (in that order)) (Images 9-11).
 
-8. Create a data folder inside the repack folder. Then Unzip the data files content into the repack folder. You should now have a 3gb data folder, with 5 subfolders.
+13. Wait until the worldserver finishes (a beep will play) (Image 11).
 
-9. Unzip the update (if any) into the repack folder, replace everything.
-
-10. Inside that folder, run "Start Server.bat" file (or start mysql.bat (wait 3-5 seconds), authserver.exe (wait 3-5 seconds) and worldserver.exe (in that order)).
-
-11. Wait until the worldserver finishes (a beep will play).
-
-12. Create a account and set the privileges:
-run this command in the worldserver window:
+14. Create a account and set the privileges, by running this command in the worldserver window:
 account create $AccountName $Password
 e.g.
 account create Test test1
@@ -47,12 +52,7 @@ Set account privilege as GM:
 account set gmlevel $AccountName 3 1
 
 
-13. Inside your client folder, search for realmlist.wtf and edit them using something like notepad++. Replace whole file with "set realmlist 127.0.0.1" without quotes.
-
-14. (Optional for individual progression) Follow instructions at individual progression github (step 10) for optional content that requires client modification:
-https://github.com/ZhengPeiRu21/mod-individual-progression/wiki/How-to-Install
-
-15. (Optional for fly anywhere module) Copy/Move Patch-O.mpq inside the repack root folder into your WoW client data folder. Replace if necessary.
+15. Inside your client folder, search for realmlist.wtf and edit them using something like notepad++. Replace whole file with "set realmlist 127.0.0.1" without quotes.
 
 16. Run your WoW client and login into your account.
 
@@ -63,6 +63,36 @@ How to close the server:
 2. In authserver.exe press ctrl+c once and wait for the window to close.
 3. In the mysql console press ctrl+c 2 times.
 Do this so that your database is not corrupted.
+
+
+
+MODULE INSTRUCTIONS 
+(Ignore the instructions for modules that do not come in your repack!)
+
+Individual Progression
+Follow instructions at individual progression github (step 10) for optional content that requires client modification:
+https://github.com/ZhengPeiRu21/mod-individual-progression/wiki/How-to-Install
+
+
+Fly Anywhere 
+Copy/Move Patch-O.mpq inside the repack folder into your WoW client "data" folder. Replace if necessary. And after extracting the data files, move "AreaTable.dbc" (which is in the same folder as the auth and worldserver executables) into "data/dbc" in your repack's folder and replace the original.
+
+
+Ollama Chat
+Ollama needs to be set up to get this working:
+https://github.com/DustinHendrickson/mod-ollama-chat?tab=readme-ov-file#setting-up-ollama-server
+
+
+
+
+OTHER INSTRUCTIONS
+Changing languages:
+Set "DBC.Locale" and "RealmZone" in worldserver.conf to your locale.
+
+
+Client Addon for playerbot control:
+https://github.com/Wishmaster117/MultiBot
+
 
 
 

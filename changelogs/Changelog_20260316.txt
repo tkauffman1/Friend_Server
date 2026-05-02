@@ -1,0 +1,36 @@
+
+(2026-03-16)
+rev. f52714a36 2026-03-16
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+modules\individualProgression.conf
+
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2026-03-13T01:59:48Z&until=2026-03-16T06:28:52Z
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2026-03-13T01:59:48Z&until=2026-03-16T06:28:52Z
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2026-03-13T01:59:48Z&until=2026-03-16T06:28:52Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

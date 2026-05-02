@@ -1,0 +1,39 @@
+
+(2026-03-23)
+rev. 585b2d586 2026-03-23
+
+
+Weather Vibe and AOE Loot got fixed and now are included in the repack again.
+
+
+CHANGES TO .CONF FILES IN THIS UPDATE (if you don`t have any changes to these files or don`t care, just replace them):
+
+modules\mod_weather_vibe.conf
+
+
+CHANGE LIST (CORE):
+	https://github.com/azerothcore/azerothcore-wotlk/commits/master/?since=2026-03-16T06:28:52Z&until=2026-03-23T04:25:48Z
+
+CHANGE LIST (PLAYERBOTS):
+	https://github.com/liyunfan1223/mod-playerbots/commits/master/?since=2026-03-16T06:28:52Z&until=2026-03-23T04:25:48Z
+
+CHANGE LIST (INDIVIDUAL PROGRESSION):
+	https://github.com/ZhengPeiRu21/mod-individual-progression/commits/master/?since=2026-03-16T06:28:52Z&until=2026-03-23T04:25:48Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
